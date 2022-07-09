@@ -20,9 +20,9 @@ wget  https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetri
 chmod +x winetricks
 WINEPREFIX=~/.WineApps/Paladium ./winetricks d3dcompiler_47 d3dx11_43 win7
 
-mv launcher.sh ~/.WineApps/Paladium/drive_c
-mv Paladium.svg ~/.local/share/icons
-mv Paladium.desktop ~/.local/share/applications
+mv Assets/launcher.sh ~/.WineApps/Paladium/drive_c
+mv Assets/Paladium.svg ~/.local/share/icons
+mv Assets/Paladium.desktop ~/.local/share/applications
 
 rm -rf winetricks
 rm -rf winetricks.1
