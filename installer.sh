@@ -5,14 +5,14 @@ mkdir ~/.WineApps/Paladium
 
 WINEPREFIX=~/.WineApps/Paladium wineboot
 
-curl -L "https://drive.google.com/uc?export=download&id=1K7BxDSuCwyd-G-awdd5Rctc8fA4PDpjm" > PaladiumLauncher.tar.xz
+curl -L "https://getlemonade.org/PublicFiles/paladium-group.tar.xz" > paladium-group.tar.xz
 
-curl -L "https://drive.google.com/uc?export=download&id=17QeWUUne6VijAu6V-m-4BRhmO3mkp08r" > Assets.tar.xz
+curl -L "https://getlemonade.org/PublicFiles/Assets.tar.xz" > Assets.tar.xz
 
-tar -xf PaladiumLauncher.tar.xz
-rm -rf PaladiumLauncher.tar.xz
-mv Paladium\ Launcher ~/.WineApps/Paladium/drive_c
-rm -rf Paladium\ Launcher
+tar -xf paladium-group.tar.xz
+rm -rf paladium-group.tar.xz
+mv paladium-group ~/.WineApps/Paladium/drive_c
+rm -rf paladium-group
 tar -xf Assets.tar.xz
 rm -rf Assets.tar.xz
 chmod +x launcher.sh
