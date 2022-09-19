@@ -1,3 +1,7 @@
+## Please note after contacting Paladium staff, it's not allowed to use Paladium on Linux. Also this old Wine Wrapped isn't allowed even if it's the Windows Version.
+
+## Do not use it and do not try to launch it, it's first outdated and won't work (I'm not allowed to share my current version) and apparently Paladium anti-cheat flags linux users and ban them.
+
 # Palalinux-Paladium-Launcher-for-Linux
 **IMPORTANT : I'm not maintaining this as much as my other repos... Paladium devs literally just cut Linux support and that's not my job to do it.**
 **Electron used for the launcher is compatible with LINUX**
